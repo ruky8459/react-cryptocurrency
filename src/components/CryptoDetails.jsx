@@ -1,8 +1,10 @@
-  import React from 'react'
+  import React, {useState} from 'react'
+  import { useParams } from 'react-router-dom'
   
   const CryptoDetails = () => {
+    const { coinId } = useParams()
     return (
-      <div>CryptoDetails</div>
+      <div>CryptoDetails{coinId}</div>
     )
   }
   
