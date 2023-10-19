@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="nav-container">
       <div className="logo-container">
-        <Avatar src="/images/cryptocurrency.png" size="large" />
+        <Avatar src="../images/cryptocurrency.png" size="large" />
         <Typography.Title level={2} className="logo">
           <Link to="/">Cryptoverse</Link>
         </Typography.Title>
